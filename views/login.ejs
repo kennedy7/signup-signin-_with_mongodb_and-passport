@@ -1,0 +1,124 @@
+<!-- <form action = "/login" method="POST">
+    <input type = "text" name="username" placeholder="username">
+    <input type = "password" name="password" placeholder="password">
+    <button>_login_</button> -->
+<div class="form">
+    </form>
+    <!doctype html>
+    <html>
+
+    <head>
+        <title>my node project</title>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+        <style>
+            body {
+                font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                font-size: 150.5%;
+                color: #0d0c22;
+                /* background: #fff; */
+                background-image:url("https://images.unsplash.com/photo-1559526324-593bc073d938?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg");
+                width: 50%;
+                padding: 0px;
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                left: 40%;
+                right: 0;
+                z-index: -1;
+            }
+
+            .text-center {
+                border: 5px outset blue;
+                background-image: url("https://images.unsplash.com/photo-1622630998477-20aa696ecb05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=816&q=80.jpg");
+                width: 50%;
+                padding: 5px;
+            }
+
+            .form {
+                text-decoration-color: black;
+            }
+
+            .column {
+                position: fixed;
+                top: 0;
+                bottom: 0;
+                right: 50%;
+                left: 0;
+                z-index: -1;
+                display: block;
+                font-family: inherit;
+                font-size: 200%;
+                font-style: inherit;
+                font-weight: inherit;
+                /* background-color: rgb(107, 93, 93); */
+                float: left;
+                width: 50%;
+                padding: 5px;
+
+            }
+
+            footer {
+                display: flex;
+                justify-content: center;
+                padding: 100px;
+                background-image:url("https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80.jpg");
+                color: #fff;
+                width: 120%;
+            }
+        </style>
+
+    </head>
+    <div class="column" >
+
+        <h2 style="color:black">LOGIN PAGE</h2>
+    </div>
+   
+    <body style="background-color:gry">
+        <div class="container">
+            <div class="col-sm-6 col-sm-offset-3">
+
+                <h1><span class="fa fa-sign-in"></span> Login</h1>
+
+                <!-- LOGIN FORM -->
+
+                <form action="/login" method="post">
+                    <div class="form-group">
+                        <label for="username">
+                            <h4>username</h4>
+                        </label>
+                        <input type="text" name="username" placeholder="username" id="username">
+                    </div>
+                    <div class="form-group">
+                        <label for="username">
+                            <h4>password</h4>
+                        </label>
+                        <input type="password" name="password" placeholder="password" id="password">
+                    </div>
+
+                    <button type="submit" class="btn btn-warning btn-lg">Login</button>
+                </form>
+
+                <hr>
+                <div class="bottom">
+                    <p>Need an account? <a href="/register">Signup</a></p>
+                    <p>Or go <a href="/">home</a>.</p>
+                </div>
+                <div class="text-center">
+                    <p>A login page by <a href="#">kennedy</a>.</p>
+                    <p>Visit the <a href="#">repo</a>.</p>
+                </div>
+
+            </div>
+        </div>
+</div>
+<footer><h4 style="color:blue"><i> copyright @kennedy 2020</i></h4></footer>
+</body>
+
+</html>
+
+
+<!-- <li><a href="/register">SIGN UP!</a></li>
+<li><a href="/login">LOGIN</a></li>
+<li><a href="/secret">SECRET</a></li> -->

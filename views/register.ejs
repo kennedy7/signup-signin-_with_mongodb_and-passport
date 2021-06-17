@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+    <title >MY SIGNUP PAGE</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body {
+             padding-top:80px; 
+             background-image:url("https://images.unsplash.com/photo-1605792657660-596af9009e82?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=691&q=80.jpg");
+        }
+
+    </style>
+</head>
+<body>
+<div class="container">
+<div class="col-sm-6 col-sm-offset-3">
+
+    <h1 style= "color: white;"><span class="/register"></span> Signup</h1>
+
+    <!-- LOGIN FORM -->
+    <form action="/register" method="post">
+        <div class="form-group">
+            <label for="username"><h4 style= "color: red;">create username</h4></label>
+            <input type = "text" name="username" placeholder="username" id = "username">
+        </div>
+        <div class="form-group">
+            <label for="password"><h4 style= "color: green;">create password</h4></label>
+            <input type = "password" name="password" placeholder="password" id= "password">        
+        </div>
+
+        <button type="submit" class="btn btn-warning btn-lg">Signup</button>
+    </form>
+
+    <hr>
+
+    <p style= "color: white;">Already have an account? <a href="/login">Login</a></p>
+    <p style= "color: white;"> Or go <a href="/">home</a>.</p>
+
+    <div class="text-center">
+        <p>A page by <a href="#">kennedy</a>.</p>
+        <p>Visit the <a href="#">repo</a>.</p>
+    </div>
+
+</div>
+</div>
+</body>
+</html>
+
+<!-- <li><a href="/register">SIGN UP!</a></li>
+<li><a href="/login">LOGIN</a></li>
+<li><a href="/secret">SECRET</a></li> -->
